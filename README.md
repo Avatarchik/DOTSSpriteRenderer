@@ -34,7 +34,7 @@ public class SpriteTest: MonoBehaviour {
     private void Satrt() {
         var em = World.DefaultGameObjectInjectionWorld.EntityManager;
         var frames = _spriteAnimation.Select(SpriteCache.Cache).ToArray();
-        for (var i = 0; i < 100) {
+        for (var i = 0; i < 100; i++) {
                 var entity = em.CreateEntity();
                 em.AddComponentData(entity, new Translation {
                     Value = new float3(i, 0, 10),
