@@ -1,4 +1,4 @@
-#Sprite renderer for Unity DOTS
+# Sprite renderer for Unity DOTS
 
 Simple sprite renderer for Unity DOTS. Supports:
 
@@ -8,7 +8,7 @@ Simple sprite renderer for Unity DOTS. Supports:
 
 Native sprite atlases are supported.
 
-##Usage
+## Usage
 Use `SpriteUtils` to add sprite to the entity. 
 ```c#
 public class SpriteTest: MonoBehaviour {
@@ -25,7 +25,7 @@ public class SpriteTest: MonoBehaviour {
 }
 ```
 
-##Caching
+## Caching
 Due to performance reasons its preferable to use `SpriteUtls` method overrides that accepts `CachedSprite` instead of `Sprite`. 
 ```c#
 public class SpriteTest: MonoBehaviour {
